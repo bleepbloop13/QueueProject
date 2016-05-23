@@ -5,13 +5,6 @@ public class Customer
 	private boolean hasOrder;
 	private String name;
 	private double total;
-
-	public Customer()
-	{
-		this.hasOrder = false;
-		this.name = "";
-		this.total = 0.0;
-	}
 	
 	public Customer(boolean hasOrder, String name, double total)
 	{
